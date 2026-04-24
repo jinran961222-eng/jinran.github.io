@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #000;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-btn {
+    color: #000;
+    background: gold;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/hero.jpg') center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.btn {
+    background: gold;
+    color: #000;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #1a1a1a;
+}
+
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 15px;
+}
+
+.card img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.application {
+    padding: 40px;
+    text-align: center;
+}
+
+.about {
+    padding: 40px;
+    background: #1a1a1a;
+}
+
+.about ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
